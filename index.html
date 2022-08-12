@@ -4,32 +4,72 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/normalize.min.css">
-   <link rel="stylesheet" href="./css/main.css">
-   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
-   <title>Document</title>
+   <!-- <link rel="stylesheet" href="./css/normalize.min.css"> -->
+   <!-- <link rel="stylesheet" href="./css/main.css"> -->
+   <link rel="stylesheet" href="./css/main.min.css">
+   <title>Coffeeroaster</title>
 </head>
 <body>
    
    <!-- SITE HEADER START -->
-   <header class="site-header">
-      
+   <header class="site-header header">
+      <div class="container">
+         <div class="header__inner">
+            <a class="logo" href="index.html">
+               <img class="logo__img" src="./images/logo.svg" alt="Coffeeroaster's logo" width="237" height="27">
+            </a>
+            
+            <button class="header__burger-btn" type="button"></button>
+            
+            <nav class="nav">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a class="nav__item-link" href="#">Home</a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a class="nav__item-link" href="#">About us</a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a class="nav__item-link" href="#">Create your plan</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
    </header>
    <!-- SITE HEADER FINISH -->
    
    <!-- SITE MAIN START -->
    <main class="site-main">
       
+      <!-- HERO SECTION START -->
+      <section class="hero">
+         <div class="container">
+            <div class="hero__inner">
+               <div class="hero__content">
+                  <h1 class="hero__heading">Great coffee made simple.</h1>
+                  <p class="hero__text">
+                     Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
+                  </p>
+                  <button class="button hero__btn" type="button">Create your plan</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- HERO SECTION FINISH -->
+      
    </main>
    <!-- SITE MAIN FINISH -->
-
+   
    <!-- SITE FOOTER START -->
    <footer class="site-footer">
-
+      
    </footer>
    <!-- SITE FOOTER FINISH -->
-
-
+   
+   
    <script src="./js/main.js"></script>
 </body>
 </html>
